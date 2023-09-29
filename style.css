@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    margin: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navbar a {
+    margin-right: 20px;
+    color:rgba(0, 153, 255, 0.733);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navbar:hover {
+    border-bottom: 1px solid;
+    color: border-bottom blue;
+}
+
+.navbar a:hover {
+    color: blue;
+}
